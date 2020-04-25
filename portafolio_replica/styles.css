@@ -1,0 +1,43 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.nav_principal{
+    
+    display:flex;
+    justify-content: space-between;
+    background-color: #1b1b1b;
+    align-items: center;
+    height: 70px;
+}
+.lobo{
+    margin:0;
+}
+img{
+    width: 100px;
+    height: 65px;
+    margin:0;
+}
+.navegacion{
+    
+    display:inherit;
+    align-items: center;
+    height: inherit;
+    margin:0 0px;
+    padding:0;
+    
+    
+}
+.navegacion ol{
+    display:flex;
+    padding: inherit;
+}
+.navegacion li{
+    margin: 0 30px;
+}
+ol, a{
+    list-style: none;
+    text-decoration: none;
+    color:white;
+}
